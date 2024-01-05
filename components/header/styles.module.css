@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004466; /* Dark Blue */
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    color: #FFD700; /* Yellow */
+  }
+  
+  .searchInput {
+    padding: 5px 10px;
+    border: 2px solid #006400; /* Dark Green */
+    border-radius: 5px;
+  }
+  
+  .menu a {
+    color: #D3D3D3; /* Light Gray */
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .userProfile {
+    background-color: #006400; /* Dark Green */
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  
