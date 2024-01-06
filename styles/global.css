@@ -1,3 +1,5 @@
+@import "./variables.css";
+
 /* Global Resets */
 *,
 *::before,
@@ -196,4 +198,10 @@ input[type="submit"]:hover {
 .d-block { display: block !important; }
 .d-inline-block { display: inline-block !important; }
 .d-flex { display: flex !important; }
+.justify-content-center {
+    justify-content: center;
+}
+.align-item-center {
+    align-items: center;
+}
 /* ... continue for other display utilities ... */

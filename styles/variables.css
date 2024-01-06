@@ -1,0 +1,40 @@
+/* Renk Değişkenleri */
+:root {
+    --primary-color: #0000FF; /* Mavi - Ana renk */
+    --secondary-color: #006400; /* Koyu Yeşil - İkincil renk */
+    --accent-color: #FFD700; /* Sarı - Vurgu rengi */
+    --background-color: #808080; /* Gri - Arka plan rengi */
+    --text-color: #333333; /* Ana metin rengi */
+    --text-color-light: #ffffff; /* Açık metin rengi */
+    --border-color: #dee2e6; /* Kenarlık rengi */
+}
+
+/* Yazı Tipi ve Tipografi Değişkenleri */
+:root {
+    --font-family-sans-serif: 'Helvetica Neue', sans-serif;
+    --font-family-serif: 'Times New Roman', serif;
+    --font-family-monospace: 'Courier New', monospace;
+    --font-size-base: 16px; /* Temel font boyutu */
+    --font-size-large: 1.25rem; /* Büyük font boyutu */
+    --font-size-small: 0.875rem; /* Küçük font boyutu */
+    --heading-font-family: 'Arial', sans-serif; /* Başlıklar için yazı tipi ailesi */
+    --heading-color: var(--primary-color); /* Başlıklar için renk */
+}
+
+/* Boşluk Değişkenleri */
+:root {
+    --spacing-xs: 0.25rem; /* Çok küçük boşluk */
+    --spacing-sm: 0.5rem; /* Küçük boşluk */
+    --spacing-md: 1rem; /* Orta boşluk */
+    --spacing-lg: 1.5rem; /* Büyük boşluk */
+    --spacing-xl: 3rem; /* Çok büyük boşluk */
+}
+
+/* Duyarlı Tasarım için Kesme Noktaları */
+:root {
+    --breakpoint-xs: 0; /* Çok küçük cihazlar */
+    --breakpoint-sm: 576px; /* Küçük cihazlar */
+    --breakpoint-md: 768px; /* Orta cihazlar */
+    --breakpoint-lg: 992px; /* Büyük cihazlar */
+    --breakpoint-xl: 1200px; /* Çok büyük cihazlar */
+}

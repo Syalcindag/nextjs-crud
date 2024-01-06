@@ -1,3 +1,4 @@
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,7 +10,7 @@
   
   .logo {
     font-size: 1.5em;
-    color: #FFD700; /* Yellow */
+    color: var(--color-yellow); /* Yellow */
   }
   
   .searchInput {
