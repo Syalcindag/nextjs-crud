@@ -11,7 +11,7 @@ function Header() {
       <Link href="/services">Services</Link>
       <Link href="/contact">Contact</Link>
     </div>
-    <div className={styles.userProfile}>Profile</div>
+    <div className={styles.userProfile}><Link href="/profile" className={styles.profileIcon}>Profile</Link></div>
   </header>
   )
 }

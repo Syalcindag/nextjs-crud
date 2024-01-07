@@ -30,4 +30,9 @@
     padding: 5px 10px;
     border-radius: 50%;
   }
+
+  .profileIcon {
+    color: #D3D3D3;
+    text-decoration: none;
+  }
   
